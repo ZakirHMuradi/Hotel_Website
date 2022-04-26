@@ -1,0 +1,230 @@
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+html, body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.3em;
+}
+.container {
+  margin: auto;
+  max-width: 1100px;
+  overflow: auto;
+  padding: 0, 10px;
+}
+
+.text-primary {
+  color: #f7c08a;
+}
+.text-secondary {
+  color: aquamarine;
+}
+.lead {
+  font-size: 20px;
+}
+
+.btn {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  display: inline-block;
+  font-size: 18px;
+  color: white;
+  background-color: #f7c08a;
+  padding: 13px, 20px;
+  border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #f7c08a;
+  color: #333;
+}
+.btn-light {
+  background-color: #f4f4f4;
+  color: #333;
+}
+.bg-dark {
+  background: lightsteelblue;
+  color: white;
+}
+.bg-light {
+  background: #f4f4f4;
+  color: black;
+}
+.bg-primary {
+  background: black;
+  color: #f7c08a;
+}
+.l-heading {font-size: 40px; text-align: left;}
+.clr {clear: both;}
+a {
+  color: #333;
+  text-decoration: none;
+}
+.py-1 {padding: 10px;}
+.py-2 {padding: 20px;}
+.py-3 {padding: 30px;}
+
+h1 , h2, h3{
+  padding-bottom: 15px;
+  text-align: center;
+}
+p {margin: 10px 0}
+
+#navbar {
+  background-color: #333;
+  color: white;
+  overflow: auto;
+}
+#navbar a { color: white;}
+#navbar .logo {float: left;
+padding-top: 20px;}
+#navbar ul {float: right; list-style: none; 
+}
+#navbar ul li {float: left; }
+#navbar a {display: block ;
+padding: 15px;
+text-align: center;
+
+}
+#navbar ul li a:hover ,
+#navbar ul li a.current {
+  background-color: #444;
+  color: #f7c08a;
+}
+#showcase {
+  background-image: url("../img/Some-Best-Internet-Service-Providers-in-Lahore-Cover-31-03.jpg");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 500px;
+}
+#showcase .showcase-content {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding-top: 170px;
+}
+#showcase .showcase-content h1 {
+font-size: 45px;
+line-height: 1.4em;
+}
+
+#showcase .showcase-content p {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color:rgb(aqua);
+  padding-bottom: 30px;
+  line-height: 1.5em;
+}
+
+#home-info {height: 300px; background: rgb(100, 148, 148);}
+
+#home-info .info-img {
+  float: left;
+  width: 50%;
+  background: url("../img/Internet-Service-Provider.jpg");
+  background-repeat: no-repeat;
+  min-height: 100%;
+  background-size: cover;
+}
+#home-info .info-content {
+  float: right;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  padding: 70px 30px;
+  overflow: hidden;
+
+}
+#home-info .info-content p {
+  padding-bottom: 30px;
+}
+
+.box {
+  min-height: 100%;
+  float: left;
+  width: 33.3%;
+  padding: 50px;
+  text-align: center;
+}
+.box i {margin-bottom: 10px;}
+
+#main-footer {
+text-align: center;
+background-color: #444;
+padding: 2px;
+color:white;}
+
+#about-info {height: 400px;
+padding-top: 40px;
+}
+#about-info .right-info {
+float: right;
+width: 50%;
+min-height: 100%;
+}
+#about-info .right-info img {
+  display: block;
+  margin: auto;
+  border-radius: 50%;
+  width: 50%;
+  padding: 30px 10px;
+}
+#about-info .left-info {
+  float: left;
+  width: 50%;
+  min-height: 100%;
+}
+
+#testimony {
+  height: 500px;
+  background: url('../img/Huawei_pic_1_Article_1_Apr_2021.original.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  padding-top: 40px;
+}
+#testimony .test {
+  padding:20px;
+  margin-bottom: 40px;
+}
+#testimony h2 {
+  color: white;
+  padding-bottom: 40px;
+  margin-top: 30px;
+  text-align: center;
+}
+#testimony .test img {
+  border-radius: 30%;
+  width: 100px;
+  padding-top: 20px;
+  padding-left: 10px;
+  float: left;
+  margin-right: 20px;
+
+}
+#testimony .test p {
+  color: #f4f4f4;
+  background: #f7c08a;
+  padding: 45px;
+  opacity: 2;
+}
+
+#contact-info .form-group {
+margin-bottom: 20px;
+}
+#contact-info label {
+  display: block;
+  padding-bottom: 5px;
+}
+#contact-info input, #contact-info textarea {
+  width: 100%;
+  padding: 10px;
+  border: #ddd solid 1px;
+}
+#contact-info textarea {height: 200px;}
+#contact-info input:focus, #contact-info textarea:focus {
+  outline: none;
+  color: #f7c08a;
+}
